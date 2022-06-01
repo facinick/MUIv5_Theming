@@ -1,18 +1,20 @@
 import { useTheme } from "@mui/material/styles";
 import { ThemeContext } from "../theme/ThemeProvider";
 import ColorLensIcon from "@mui/icons-material/ColorLens";
-import IconButton from "@mui/material/IconButton";
+import ToggleButton from "@mui/material/ToggleButton";
 import React from "react";
 
 const ThemeModeSwitch = () => {
   const colorMode = React.useContext(ThemeContext);
   return (
-    <IconButton
+    <ToggleButton
+      value={"check"}
       style={{ borderRadius: "50px", border: "none" }}
-      onClick={colorMode.shuffleColorTheme}
+      onChange={colorMode.shuffleColorTheme}
     >
+      change theme
       <ColorLensIcon color={"secondary"} />
-    </IconButton>
+    </ToggleButton>
   );
 };
 

@@ -60,11 +60,12 @@ export const Main = () => {
             <Checkbox color={"secondary"} defaultChecked />
             <Slider />
           </Stack>
-          <Stack direction="row" spacing={5}>
+          <Stack alignItems={"center"} direction="row" spacing={5}>
             <Box
               sx={{
                 color: theme?.palette?.containerSecondary?.contrastText,
                 backgroundColor: theme?.palette?.containerSecondary?.main,
+                padding: 1,
               }}
             >
               <Typography>Use Theme</Typography>

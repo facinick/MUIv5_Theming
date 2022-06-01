@@ -11,10 +11,10 @@ const ThemeSwitch = () => {
   return (
     <ToggleButton
       style={{ borderRadius: "50px", border: "none" }}
-      title={theme.palette.mode === "dark" ? "Light Mode" : "Dark Mode"}
       value="check"
       onChange={colorMode.toggleColorMode}
     >
+      change mode
       {theme.palette.mode === "dark" && <LightModeIcon color={"secondary"} />}
       {theme.palette.mode === "light" && <DarkModeIcon color={"secondary"} />}
     </ToggleButton>
