@@ -1,4 +1,4 @@
-# MUI5 Theming Demo (5 Themes + Dark/Light mode)
+# MUI5 Theming Demo (5 Themes 🎨 + Dark 🌚/🌝 Light mode)
 
 Quickly provide your entire ReactJS front-end with custom themes and dark/light mode.
 
@@ -8,3 +8,4 @@ Quickly provide your entire ReactJS front-end with custom themes and dark/light 
 
 https://user-images.githubusercontent.com/12322728/182208582-effc5580-ed11-4353-98e2-f319371e9471.mov
 
+Yes, I know I used a yellow full moon emoji for the sun. My moon is a multi tasker what can I say.
