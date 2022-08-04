@@ -5,7 +5,7 @@ import DarkModeIcon from "@mui/icons-material/DarkMode";
 import ToggleButton from "@mui/material/ToggleButton";
 import React from "react";
 
-const ThemeSwitch = () => {
+const DarkModeSwitch = () => {
   const theme = useTheme();
   const colorMode = React.useContext(ThemeContext);
   return (
@@ -21,4 +21,4 @@ const ThemeSwitch = () => {
   );
 };
 
-export default ThemeSwitch;
+export default DarkModeSwitch;

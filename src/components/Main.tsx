@@ -14,8 +14,8 @@ import {
 import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
 import { styled } from "@mui/material/styles";
-import ThemeModeSwitch from "./ThemeModeSwitch";
-import ThemeSwitch from "./ThemeSwitch";
+import DarkModeSwitch from "./DarkModeSwitch";
+import ThemeColorShuffle from "./ThemeColorShuffle";
 
 const StyledTextField = styled(TextField)<TextFieldProps>(({ theme }) => ({
   color: theme?.palette?.containerSecondary?.contrastText,
@@ -36,8 +36,8 @@ export const Main = () => {
       <CardContent>
         <Stack direction="column" spacing={5}>
           <Stack direction="row" spacing={5}>
-            <ThemeModeSwitch />
-            <ThemeSwitch />
+            <DarkModeSwitch />
+            <ThemeColorShuffle />
           </Stack>
           <Stack direction="row" spacing={5}>
             <Button variant={"contained"} color={"primary"}>
