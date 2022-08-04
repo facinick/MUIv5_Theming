@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import { StyledEngineProvider } from "@mui/material/styles";
-import ThemeProvider from "./theme/ThemeProvider";
+import MyThemeProvider from "./theme/MyThemeProvider";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -12,9 +12,9 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <StyledEngineProvider injectFirst>
-      <ThemeProvider>
+      <MyThemeProvider>
         <App />
-      </ThemeProvider>
+      </MyThemeProvider>
     </StyledEngineProvider>
   </React.StrictMode>
 );
