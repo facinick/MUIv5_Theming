@@ -1,5 +1,10 @@
 {
   "name": "theming-tutorial",
+  "author": {
+    "name": "facinick",
+    "email": "facinick@gmail.com",
+    "url": "https://facinick.xyz"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
